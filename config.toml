@@ -1,0 +1,28 @@
+baseURL = "https://orkan.boo"
+languageCode = "en-us"
+title = "orkan.boo"
+theme = "PaperMod"
+[params]
+  [params.profileMode]
+    enabled = true
+    title = "orkan.boo"
+    subtitle = "burada yapabileceğin bir şey yok, aşağıdaki bağlantıları kullanabilirsin."
+    imageUrl = "https://web.itu.edu.tr/atesturk20/doge.jpeg"
+    imageTitle = "doge sleeping on a loaf"
+    imageWidth = 169
+    imageHeight = 169
+    [[params.profileMode.buttons]]
+      name = "notlar"
+      url = "https://docs.orkan.boo/"
+    [[params.profileMode.buttons]]
+      name = "projeler"
+      url = "https://pr.orkan.boo/"
+    [[params.profileMode.buttons]]
+      name = "yazılar"
+      url = "https://wr.orkan.boo/"
+    [[params.profileMode.buttons]]
+      name = "art"
+      url = "https://art.orkan.boo/"
+    [[params.profileMode.buttons]]
+      name = "admin"
+      url = "https://su.orkan.boo/"
